@@ -1,0 +1,16 @@
+{
+  "name": "ChecksumGenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "grunt": "",
+    "grunt-cli": "",
+    "blueimp-md5": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}

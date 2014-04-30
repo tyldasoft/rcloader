@@ -1,0 +1,41 @@
+{
+  "name": "RCLoader",
+  "short_name": "RCLoader",
+  "version": "1.3.0.0",
+  "description": "This extension helps to load remote scripts.",
+  "homepage_url": "https://tyldasoft.com",
+  "icons": { "48": "icon48.png",
+             "128": "icon128.png" },
+  "manifest_version": 2,
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  
+  "background": {
+    "page": "rcloader.html"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["js/content.js"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "proxy",
+    "<all_urls>"
+  ],
+  
+  "options_page": "options.html",
+  
+  "browser_action": {
+      "name": "RCLoader",
+      "default_title": "RCLoader",
+      "default_icon": "icon128.png"
+  }
+}
