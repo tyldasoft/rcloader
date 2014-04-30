@@ -4,11 +4,16 @@ RCLoader
 RCLoader is a chrome extension, which can load remote scripts and run them. It is similar to Tampermonkey.
 
 The extension can be found in the rcloader directory.
+Install extension through Chrome webstore:
+- Open the following site: https://chrome.google.com/webstore/detail/rcloader/fdogdjadbdhkiljndgcnglmcaaaadoem
+- Click in Free button to install.
+
 To install RCLoader locally:
 - Clone the rcloader project from github.
 - Open chrome and navigate to "chrome://extensions/".
 - Enable "Developer mode" in the upper right corner.
 - Click on "Load unpacked extension..." and select the directory CLONEPATH/rcloader/rcloader
+
 
 
 To load a script with RCLoader:
