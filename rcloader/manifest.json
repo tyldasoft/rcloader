@@ -3,7 +3,7 @@
   "short_name": "RCLoader",
   "version": "1.3.0.0",
   "description": "This extension helps to load remote scripts.",
-  "homepage_url": "https://tyldasoft.com",
+  "homepage_url": "https://github.com/tyldasoft/rcloader",
   "icons": { "48": "icon48.png",
              "128": "icon128.png" },
   "manifest_version": 2,
