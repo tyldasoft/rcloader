@@ -6,7 +6,7 @@ RCLoader is a chrome extension, which can load remote scripts and run them. It i
 The extension can be found in the rcloader directory.
 
 Install extension through Chrome webstore:
-- Open the following site: https://chrome.google.com/webstore/detail/rcloader/fdogdjadbdhkiljndgcnglmcaaaadoem
+- Click on the following link: <a href="https://chrome.google.com/webstore/detail/rcloader/fdogdjadbdhkiljndgcnglmcaaaadoem" target="_blank">RCLoader webstore</a>
 - Click in "+ FREE" button to install.
 
 Install RCLoader locally:
