@@ -9,13 +9,13 @@ Install extension through Chrome webstore:
 - Open the following site: https://chrome.google.com/webstore/detail/rcloader/fdogdjadbdhkiljndgcnglmcaaaadoem
 - Click in "+ FREE" button to install.
 
-To install RCLoader locally:
+Install RCLoader locally:
 - Clone the rcloader project from github.
 - Open chrome and navigate to "chrome://extensions/".
 - Enable "Developer mode" in the upper right corner.
 - Click on "Load unpacked extension..." and select the directory CLONEPATH/rcloader/rcloader
 
-To load a script with RCLoader:
+Load a script with RCLoader:
 - Click on the RCLoader icon in the toolbar. This will open the options page of the RCLoader.
 - Insert your script's json file link into RCLoader. For example: https://raw.githubusercontent.com/tyldasoft/rcloader/master/samples/fadeinout/fadeinout.json
 - Wait 3 sec until RCLoader loads your script.
