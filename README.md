@@ -7,7 +7,7 @@ The extension can be found in the rcloader directory.
 
 Install extension through Chrome webstore:
 - Click on the following link, which will redirect you to the RCLoader's page in the webstore: <a href="https://chrome.google.com/webstore/detail/rcloader/fdogdjadbdhkiljndgcnglmcaaaadoem" target="_blank">RCLoader</a>
-- Click in "+ FREE" button to install.
+- Click on "+ FREE" button to install.
 
 Or install RCLoader locally:
 - Clone the rcloader project from github.
