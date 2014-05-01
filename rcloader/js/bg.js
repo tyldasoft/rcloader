@@ -38,9 +38,7 @@ var RCLoader = new function() {
                 if (scriptList) {
                     callback(true);
                     if (!noReload) {
-                        setTimeout(function(){
-                            chrome.runtime.reload();
-                        }, 3000);    
+                        chrome.runtime.reload();
                     }
                 }else{
                     callback(false);
